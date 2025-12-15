@@ -1,0 +1,15 @@
+  153 git clone git@github.com:alinarytska/Homework_12.git 
+  154 cd Homework_12/ 
+  155 ls -al 
+  156 git checkout -b feature 
+  157 git branch 
+  158 nano README.md 
+  159 nano .gitignore 
+  160 git add README.md .gitignore 
+  161 git commit -m "Update README and gitignore" 
+  162 git push -u origin feature 
+  163 git commit --amend 
+  164 git checkout main 
+  165 git merge feature
+  166 history 
+  167 history | tail -15 > history.txt
